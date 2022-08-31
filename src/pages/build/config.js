@@ -31,8 +31,8 @@ export default {
   dev: {
     // env 会通过 webpack.DefinePlugin 注入到前端代码里
     env: devEnv,
-    port: 8089,
-    localDevUrl: 'http://dev.bktencent-example.com',
+    // port: 8089,
+    localDevUrl: 'http://dev.bk8s.devcloud.com',
     localDevPort: 8089,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
